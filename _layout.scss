@@ -1,16 +1,30 @@
-.button {
-  &--primary {
-    padding: 10px;
-    background-color: $color-background;
-    color: $color-primary;
-    border: 2px solid;
-    border-radius: 10%;
+nav {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1 {
+    font-family: $font-header;
   }
-  &--secondary {
-    padding: 10px;
-    background-color: $color-primary;
-    color: $color-background;
-    border: 2px solid;
-    border-radius: 10%;
-  }
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: $color-footer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
