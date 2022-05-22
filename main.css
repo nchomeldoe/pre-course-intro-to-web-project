@@ -6,3 +6,18 @@
   font-family: "Roboto Flex", sans-serif;
   color: #394166;
 }
+
+.button--primary {
+  padding: 10px;
+  background-color: #fffdf8;
+  color: #394166;
+  border: 2px solid;
+  border-radius: 10%;
+}
+.button--secondary {
+  padding: 10px;
+  background-color: #394166;
+  color: #fffdf8;
+  border: 2px solid;
+  border-radius: 10%;
+}

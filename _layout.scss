@@ -1,0 +1,16 @@
+.button {
+  &--primary {
+    padding: 10px;
+    background-color: $color-background;
+    color: $color-primary;
+    border: 2px solid;
+    border-radius: 10%;
+  }
+  &--secondary {
+    padding: 10px;
+    background-color: $color-primary;
+    color: $color-background;
+    border: 2px solid;
+    border-radius: 10%;
+  }
+}
