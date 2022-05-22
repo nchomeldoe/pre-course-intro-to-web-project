@@ -14,6 +14,12 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  &.intro {
+    .intro__heading,
+    .intro__h3 {
+      color: $color-secondary;
+    }
+  }
 }
 
 div {
@@ -27,4 +33,8 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+strong {
+  font-weight: 900;
 }

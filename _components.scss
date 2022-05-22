@@ -1,6 +1,6 @@
 .button {
   &--primary {
-    padding: 10px 20px;
+    padding: 15px;
     background-color: $color-background;
     color: $color-primary;
     border: 1px solid;
@@ -9,7 +9,7 @@
     font-weight: bold;
   }
   &--secondary {
-    padding: 20px;
+    padding: 15px;
     background-color: $color-primary;
     color: $color-background;
     border: 1px solid;

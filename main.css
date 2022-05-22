@@ -8,7 +8,7 @@
 }
 
 .button--primary {
-  padding: 10px 20px;
+  padding: 15px;
   background-color: #fffdf8;
   color: #394166;
   border: 1px solid;
@@ -17,7 +17,7 @@
   font-weight: bold;
 }
 .button--secondary {
-  padding: 20px;
+  padding: 15px;
   background-color: #394166;
   color: #fffdf8;
   border: 1px solid;
@@ -42,6 +42,10 @@ section {
   align-items: center;
   justify-content: space-evenly;
 }
+section.intro .intro__heading,
+section.intro .intro__h3 {
+  color: #36bbf1;
+}
 
 div {
   display: flex;
@@ -54,4 +58,8 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+strong {
+  font-weight: 900;
 }
