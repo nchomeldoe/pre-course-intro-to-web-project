@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=M+PLUS+Rounded+1c:wght@400;500&family=Roboto+Flex:opsz,wght@8..144,300&display=swap");
+
+$font-header: "Luckiest Guy", sans-serif;
+$font-rouded: "M PLUS Rounded 1c", sans-serif;
+$font-main: "Roboto Flex", sans-serif;
+
+$color-primary: #394166;
+$color-secondary: #36bbf1;
+$color-background: #fffdf8;
+$color-footer: #fefcdd;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-main;
+  color: $color-primary;
+}
