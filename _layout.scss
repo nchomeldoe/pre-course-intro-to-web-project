@@ -37,22 +37,21 @@ main {
       .intro__heading {
         font-family: $font-rouded;
         font-size: $font-size-large;
-        font-weight: 700;
+        font-weight: $font-weight-bold;
       }
 
       .intro__subheading {
         font-size: $font-size-large;
-        font-weight: 500;
+        font-weight: $font-weight-light;
       }
 
       .intro__h3 {
-        // font-size: $font-size-medium;
-        font-weight: 700;
+        font-weight: $font-weight-bold;
       }
 
       .intro__h4 {
         font-size: $font-size-small;
-        font-weight: 400;
+        font-weight: $font-weight-lightest;
       }
 
       button {
@@ -71,7 +70,7 @@ main {
       }
 
       div {
-        font-weight: 400;
+        font-weight: $font-weight-lightest;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -89,7 +88,7 @@ main {
         }
 
         strong {
-          font-weight: 500;
+          font-weight: $font-weight-light;
         }
       }
 
@@ -108,7 +107,7 @@ footer {
   align-items: center;
   margin-top: 40px;
   padding: 20px;
-  font-weight: 400;
+  font-weight: $font-weight-lightest;
 
   p {
     padding: 10px;

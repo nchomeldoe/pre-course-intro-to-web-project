@@ -1,8 +1,7 @@
 .button {
   border-radius: 10px;
   font-family: $font-main;
-  // font-size: $font-size-medium;
-  font-weight: 600;
+  font-weight: $font-weight-medium;
 
   &--primary {
     padding: 12px 24px;
