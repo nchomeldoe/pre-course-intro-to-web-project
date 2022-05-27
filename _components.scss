@@ -1,22 +1,21 @@
 .button {
+  border-radius: 10px;
+  font-family: $font-main;
+  font-size: $font-size-medium;
+  font-weight: 600;
+
   &--primary {
-    padding: 15px;
-    min-width: 30%;
+    padding: 12px 24px;
     background-color: $color-background;
     color: $color-primary;
     border: 2px solid;
-    border-radius: 10px;
-    font-family: $font-main;
-    font-size: $font-size-medium;
   }
+
   &--secondary {
-    padding: 15px;
+    padding: 15px 30px;
     min-width: 50%;
     background-color: $color-primary;
     color: $color-background;
     border: 1px solid;
-    border-radius: 10px;
-    font-family: $font-main;
-    font-size: $font-size-medium;
   }
 }

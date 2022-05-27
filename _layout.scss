@@ -37,10 +37,17 @@ main {
       .intro__heading {
         font-family: $font-rouded;
         font-size: $font-size-large;
+        font-weight: 700;
       }
 
       .intro__subheading {
         font-size: $font-size-large;
+        font-weight: 500;
+      }
+
+      .intro__h3 {
+        font-size: $font-size-medium;
+        font-weight: 700;
       }
     }
 
@@ -73,8 +80,4 @@ footer {
   h3 {
     padding: 10px;
   }
-}
-
-strong {
-  font-weight: 900;
 }
