@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "IBM Plex Sans", sans-serif;
+  font-size: 25px;
   color: #394166;
 }
 
@@ -24,7 +25,6 @@ body {
 .button {
   border-radius: 10px;
   font-family: "IBM Plex Sans", sans-serif;
-  font-size: 25px;
   font-weight: 600;
 }
 .button--primary {
@@ -84,19 +84,40 @@ main section.intro .intro__subheading {
   font-weight: 500;
 }
 main section.intro .intro__h3 {
-  font-size: 25px;
   font-weight: 700;
+}
+main section.intro .intro__h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+main section.intro button {
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 main section.details * {
   margin-top: 5px;
 }
-main section.details button {
-  margin-top: 15px;
+main section.details .details__heading {
+  font-size: 30px;
 }
-main div {
+main section.details div {
+  font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+main section.details div.details__text-first img {
+  margin-left: 15px;
+}
+main section.details div.details__image-first img {
+  margin-right: 15px;
+}
+main section.details div strong {
+  font-weight: 500;
+}
+main section.details button {
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 footer {
@@ -106,7 +127,8 @@ footer {
   align-items: center;
   margin-top: 40px;
   padding: 20px;
+  font-weight: 400;
 }
-footer h3 {
+footer p {
   padding: 10px;
 }
