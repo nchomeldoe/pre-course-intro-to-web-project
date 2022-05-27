@@ -7,6 +7,10 @@
   color: #394166;
 }
 
+body {
+  max-width: 480px;
+}
+
 .button--primary {
   padding: 15px;
   background-color: #fffdf8;
@@ -14,7 +18,7 @@
   border: 1px solid;
   border-radius: 10%;
   font-family: "Roboto Flex", sans-serif;
-  font-weight: bold;
+  font-size: 15px;
 }
 .button--secondary {
   padding: 15px;
@@ -23,7 +27,7 @@
   border: 1px solid;
   border-radius: 10%;
   font-family: "Roboto Flex", sans-serif;
-  font-weight: bold;
+  font-size: 15px;
 }
 
 nav {
@@ -31,23 +35,48 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-align: center;
 }
 nav h1 {
   font-family: "Luckiest Guy", sans-serif;
+  font-size: 50px;
+  padding-top: 10px;
 }
 
-section {
+main {
+  margin: 15px 20px;
+}
+main section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
 }
-section.intro .intro__heading,
-section.intro .intro__h3 {
+main section.intro {
+  text-align: center;
+}
+main section.intro * {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+main section.intro .intro__heading,
+main section.intro .intro__h3 {
   color: #36bbf1;
 }
-
-div {
+main section.intro .intro__heading {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 30px;
+}
+main section.intro .intro__subheading {
+  font-size: 30px;
+}
+main section.details * {
+  margin-top: 5px;
+}
+main section.details button {
+  margin-top: 15px;
+}
+main div {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -58,6 +87,12 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 20px;
+}
+footer h3 {
+  padding: 10px;
 }
 
 strong {

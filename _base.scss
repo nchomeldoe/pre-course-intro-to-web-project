@@ -4,6 +4,10 @@ $font-header: "Luckiest Guy", sans-serif;
 $font-rouded: "M PLUS Rounded 1c", sans-serif;
 $font-main: "Roboto Flex", sans-serif;
 
+$font-size-header: 50px;
+$font-size-large: 30px;
+$font-size-medium: 15px;
+
 $color-primary: #394166;
 $color-secondary: #36bbf1;
 $color-background: #fffdf8;
@@ -15,4 +19,8 @@ $color-footer: #fefcdd;
   box-sizing: border-box;
   font-family: $font-main;
   color: $color-primary;
+}
+
+body {
+  max-width: 480px;
 }
