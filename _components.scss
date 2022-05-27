@@ -1,19 +1,21 @@
 .button {
   &--primary {
     padding: 15px;
+    min-width: 30%;
     background-color: $color-background;
     color: $color-primary;
-    border: 1px solid;
-    border-radius: 10%;
+    border: 2px solid;
+    border-radius: 10px;
     font-family: $font-main;
     font-size: $font-size-medium;
   }
   &--secondary {
     padding: 15px;
+    min-width: 50%;
     background-color: $color-primary;
     color: $color-background;
     border: 1px solid;
-    border-radius: 10%;
+    border-radius: 10px;
     font-family: $font-main;
     font-size: $font-size-medium;
   }

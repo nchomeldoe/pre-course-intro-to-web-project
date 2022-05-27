@@ -13,19 +13,21 @@ body {
 
 .button--primary {
   padding: 15px;
+  min-width: 30%;
   background-color: #fffdf8;
   color: #394166;
-  border: 1px solid;
-  border-radius: 10%;
+  border: 2px solid;
+  border-radius: 10px;
   font-family: "Roboto Flex", sans-serif;
   font-size: 15px;
 }
 .button--secondary {
   padding: 15px;
+  min-width: 50%;
   background-color: #394166;
   color: #fffdf8;
   border: 1px solid;
-  border-radius: 10%;
+  border-radius: 10px;
   font-family: "Roboto Flex", sans-serif;
   font-size: 15px;
 }
@@ -87,7 +89,6 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   margin-top: 40px;
   padding: 20px;
 }
